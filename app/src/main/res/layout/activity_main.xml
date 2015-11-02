@@ -1,0 +1,28 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="175dp"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/backgroundProfile"
+        android:layout_width="match_parent"
+        android:layout_height="175dp"
+        android:background="#000"
+        android:onClick="changeBackground"
+        android:orientation="vertical"
+        android:scaleType="centerCrop" />
+
+    <ImageView
+        android:id="@+id/imageProfile"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"
+        android:onClick="changeProfile"
+        android:src="@drawable/userpost_profile" />
+
+
+</RelativeLayout>
